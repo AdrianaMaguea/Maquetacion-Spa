@@ -1,0 +1,259 @@
+@font-face {
+    font-family: "iconos";
+    src: url("fonts/fontawesome-free-5.9.0-desktop/otfs/Font Awesome 5 Free-Solid-900.otf")
+}
+
+@font-face {
+    font-family: "iconos-brands";
+    src: url("fonts/fontawesome-free-5.9.0-desktop/otfs/Font Awesome 5 Brands-Regular-400.otf")
+}
+@font-face {
+    font-family: "iconos-regular";
+    src: url("fonts/fontawesome-free-5.9.0-desktop/otfs/Font Awesome 5 Free-Regular-400.otf")
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;  
+}
+
+.header-top {
+    background:#D97296;
+    padding: 10px 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-top ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header-top a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.phone::before, a.email::before {
+    display: inline-block;
+    content: "\f879";
+    font-family: "iconos"; 
+    font-size: 14px;
+    margin-right: 10px
+}
+
+a.email::before {
+    content: "\f658";
+}
+
+a.instagram::before, a.whatsapp::before, a.facebook::before  {
+    display: inline-block;
+    content: "\f16d";
+    font-family: "iconos-brands"; 
+    font-size: 20px;
+    margin-right: 10px
+}
+
+a.whatsapp::before {
+    content: "\f232";
+}
+
+a.facebook::before {
+    content: "\f09a";
+}
+
+ul.redes {
+text-align: right;
+}
+
+.header-middle {
+    background: #ffffff;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header-middle .brand {
+    display: flex;
+
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px 10px 46px;
+}
+.header-middle h1 {
+    text-transform: uppercase;
+    margin-block-start: 35px;
+    color: #b71892
+}
+
+.header-middle ul {
+    display: flex;
+}
+
+.header-middle ul li {
+    margin-right: 50px;  
+    display: flex;
+    align-items: center;
+}
+
+.info li strong {
+    display: block;
+    text-transform: uppercase;
+}
+
+i {
+    font-style: normal;
+}
+
+i.icon-location::before {
+    content: "\f5a0";
+    font-family: "iconos";
+    font-size: 50px;
+    margin-right: 10px;
+    float: left;
+    color: #F78AB0;
+}
+i.icon-phone::before {
+    content: "\f879";
+    font-family: "iconos";
+    font-size: 50px;
+    margin-right: 10px;
+    float: left;
+    color:#F78AB0;
+}
+
+.btn {
+    background: #F78AB0;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background:#D97296;
+}
+
+header nav {
+    background:#755C65;
+    overflow: hidden;
+}
+header nav ul {
+    list-style: none;
+    margin:0;
+    display: flex;
+    justify-content: space-around;
+    padding-inline-start: 0;
+}
+
+header nav ul li a {
+    padding: 10px 10px;
+    display:block;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    color: #9B4DFF
+}
+
+.start-image {
+    background-repeat:no-repeat;
+    background: url(imagenes/nail.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 440px;
+    opacity: 1;
+    visibility: inherit; 
+    z-index: 20;
+    position: relative;
+}
+
+.start-image .caption {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: #ffffff;
+}
+
+.caption h2 {
+    font-size: 65px;
+    margin-block-end: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.caption p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.acrilicas  {
+    display: flex;
+}
+
+.acrilicas img {
+    height: 400px;
+    margin-block-start: 80px;
+    margin-inline-start: 50px;
+}
+.textoacrilicas {
+    margin-block-start: 47px;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
+}
+.textoacrilicas h1, .textoacrilicas h2 {
+    text-transform: uppercase;
+    color: #F78AB0;
+}
+.buttonaog {
+    text-align: center;
+    margin-block-start: -40px;
+    margin-inline-start: 350px
+}
+
+.buttong {
+   padding-inline-end: 35px;
+   padding-inline-start: 35px;
+}
+.ourservice {
+    margin-block-start: 30px;
+    background: #F7EAEF;
+}
+.ourservice h2 {
+    text-align: center;
+}
+.separacion {
+    margin: 10px 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.separacion::before, .separacion::after {
+    content: "";
+    width: 100px;
+    display: inline-block;
+    border-bottom: 2px solid #D97296;
+ }
+.separacion i::before {
+    display: inline-block;
+    content: "\f004";
+    font-family: "iconos-regular"; 
+    font-size: 20px;
+    margin-right: 10px;
+    color:#D97296;
+    margin: 0 10px;
+}

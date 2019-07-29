@@ -1,0 +1,9 @@
+separacion-por-guion: DASH CASE
+separacion_por_guion_de_piso: SNAKE CASE
+separacionPorMayusculas: CAMEL CASE
+
+
+Tipos de imagen:
+JPG, o JPEG: Bajo peso
+PNG: Más peso con transparencia y semi-transparencia
+GIF: Más pesados, baja calidad y con transparencia y animaciones
