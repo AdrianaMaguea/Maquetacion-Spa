@@ -221,8 +221,7 @@ header nav ul li a:hover {
 }
 .buttonaog {
     text-align: center;
-    margin-block-start: -40px;
-    margin-inline-start: 350px
+    margin-block-start: 50px;
 }
 
 .buttong {
@@ -256,4 +255,48 @@ header nav ul li a:hover {
     margin-right: 10px;
     color:#D97296;
     margin: 0 10px;
+}
+.ourserviseicon {
+    list-style: none;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 5%;
+    border: 1px solid #aaaaaa;
+    padding: 0;
+    
+}
+.ourserviseicon li {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-right: 1px solid #aaaaaa;
+    flex-grow: 1;
+    cursor: pointer;
+}
+.ourserviseicon li:last-child {
+    border-right: medium none;
+}
+.ourserviseicon li img {
+    height: 70px;
+    display: block;
+    margin: auto;
+}
+.ourserviseicon li:hover {
+    background: #FFCCE9;
+}
+.ourserviseicon li.selected {
+    background: #D97296;
+    position: relative;
+}
+.ourserviseicon li.selected::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-inline-start: -5px;
+    border-top: 10px solid #D97296;
+    border-inline-start: 10px solid transparent;
+    border-inline-end: 10px solid transparent;
 }
