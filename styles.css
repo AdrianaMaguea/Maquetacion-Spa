@@ -148,7 +148,7 @@ i.icon-phone::before {
 }
 
 header nav {
-    background:#755C65;
+    background:#4D4D4D;
     overflow: hidden;
 }
 header nav ul {
@@ -168,7 +168,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #9B4DFF
+    color:#D97296
 }
 
 .start-image {
@@ -231,6 +231,7 @@ header nav ul li a:hover {
 .ourservice {
     margin-block-start: 30px;
     background: #F7EAEF;
+    padding-block-start: 20px;
 }
 .ourservice h2 {
     text-align: center;
@@ -261,7 +262,7 @@ header nav ul li a:hover {
     background: #ffffff;
     display: flex;
     justify-content: space-between;
-    margin: 20px 5%;
+    margin: 20px 5% 0;
     border: 1px solid #aaaaaa;
     padding: 0;
     
@@ -299,4 +300,60 @@ header nav ul li a:hover {
     border-top: 10px solid #D97296;
     border-inline-start: 10px solid transparent;
     border-inline-end: 10px solid transparent;
+}
+.ourservice2 {
+    background-color:#F7EAEF;
+    display: flex;
+    padding: 20px 5%;
+}
+
+.descripcion { 
+    list-style: none;
+    margin-inline-end: 20px;
+    padding: 0;
+    text-align: center;
+    
+}
+.descripcion li {
+    border: 1px solid #cecece ;
+    border-block-end: medium none;
+    background-color:#ffffff;
+}
+.descripcion li:last-child {
+    border-block-end: 1px solid #cecece;
+    
+}
+.descripcion li a {
+    display: block;
+    text-decoration: none;
+    font-weight:bold; 
+    width: 300px;
+    padding: 21px 20px 21px 30px; 
+    color: black;
+    font-size: 20px;
+}
+.descripcion li:hover {
+    background-color:#FFCCE9; 
+    }
+.ourservice2 img {
+        width: 350px;
+        height: 300px;
+        margin: 34px 20px 34px 0;
+    }
+.descripcionnav {
+    margin: 25px 0 25px 0;
+}
+.descripcionnav h2 {
+    font-size: 20px;
+
+}
+.descripcionnav h3 {
+    font-size: 20px;
+    color: #D97296
+}
+.buttonmore {
+    display: inline-block;
+    padding-inline-end: 24px;
+    padding-inline-start: 24px;
+    margin-block-start: 20px;
 }
